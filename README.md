@@ -12,7 +12,7 @@ Note - Please deploy server side first before this application
 To install this application on docker use below commands
 1. Go to the project root directory and run below command
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    docker build -t fampay-ui .
 
 2. To run fampay-ui use below command
 
