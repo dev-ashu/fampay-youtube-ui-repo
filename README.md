@@ -1,3 +1,5 @@
+Youtube Video Dashboard
+
 This is a simple dashboard application.
 It will fetch video details by calling REST api and it will display it in UI.
 I have used jquery DataTable for displaying details in Paginated and Sorted format.
@@ -10,7 +12,10 @@ https://datatables.net/
 Note - Please deploy server side first before this application
 
 To install this application on docker use below commands
-1. Go to the project root directory and run below command
+1. Go to the project root directory and run below commands
+    npm install
+
+    ng build --prod
 
     docker build -t fampay-ui .
 
